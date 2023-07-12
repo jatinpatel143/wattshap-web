@@ -120,7 +120,7 @@
     width: 430px;
 }
 
-.scop{
+.frnd{
     width: 100%;
     height: 400px;
     background-color: beige;
@@ -129,7 +129,7 @@
     justify-content: center;
 
 }
-.scop img{
+.frnd img{
     width: 90%;
 }
 .scop-section{
@@ -340,7 +340,7 @@
     margin-bottom: 400px;
 
 }
-.class{
+.classes{
     width: 60px;
     height: 60px;
     display: flex;
@@ -351,7 +351,7 @@
     margin-top: 400px;
     
 }
-.class:hover{
+.classes:hover{
     background-color: black;
     color: white;
 }
