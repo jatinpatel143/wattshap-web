@@ -412,7 +412,7 @@
 }
 .last{
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -525,6 +525,299 @@
     background-color: rgb(27, 25, 25);
 
     
+}
+
+
+
+@media (max-width:768px){
+
+    .countainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 80px;
+        /* padding-inline: 30px; */
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .navbar ul li{
+        display: none;
+    }
+
+    .navbar ul button{
+        width: 120px;
+    }
+
+    .main-countainer{
+        width: 100%;
+        height: auto;
+    }
+    .hero-section{
+        width: 100%;
+        height: 300px;
+    }
+    .hero-section img{
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-pard{
+        width: 100%;
+        height: auto;
+        padding-left: 30px;
+    }
+    .text-pard h1{
+        font-size: 30px;
+    }
+
+    .text-pard button{
+        width: 120px;
+    }
+
+    .img-pard{
+        display: none;
+    }
+
+    .frnd{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .scop-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scop-section br{
+        display: none;
+    }
+
+    .scop-section h1 {
+        font-size: 28px;
+        padding-inline: 40px;
+        
+    }
+
+    .two-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .text-section{
+        width: 100%;
+        height: auto;
+        padding-inline: 30px;
+        padding-bottom: 40px;
+
+        
+    }
+
+    /* .text-section br{
+        display: none;
+    } */
+
+    .text-section h1{
+        font-size: 30px;
+        
+    }
+
+    .img-section{ 
+        width: 100%;
+        height: auto;
+   
+  
+    }
+
+    .img-section img{
+    width: 50%;
+    padding-top: 30px;
+    }
+
+    .patel-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .patel{
+        width: 100%;
+        height: auto;
+    }
+    .patel img{
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .thakur{
+        width: 100%;
+        height: auto;
+        padding-inline: 30px;
+        padding-bottom: 50px;
+        
+    }
+
+    .thakur h1{
+        font-size: 30px;
+    }
+    .thakur p br{
+        display: none;
+    }
+
+    .mantari{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .jidagi{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sarkit{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .sarkit img{
+        width: 50%;
+    }
+
+    .bada-section{
+        width: 100%;
+        height: auto;
+        padding-inline: 40px;
+        padding-top: 40px;
+    }
+
+    .bada-section h1{
+        font-size: 40px;
+    }
+    .bada-section p br{
+        display: none;
+    }
+
+    .bada-section p{
+        font-size: 21px;
+        font-weight: 100;
+    }
+
+    .mahsoes{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+        padding-top: 80px;
+    }
+
+    .text-section{
+        width: 100%;
+        height: auto;
+        /* padding-top: 40px; */
+    }
+
+    .text-section p br{
+        display: none;
+    }
+
+    .mr-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .trt{
+        width: 100%;
+        height: auto;
+        
+    
+    }
+    .prt{
+        width: 100%;
+        height: auto;
+        /* padding-top: 30px; */
+        padding: 50px;
+
+    }
+
+    .trt h1{
+        font-size: 40px;
+
+
+    }
+    .last-section{
+        width: 100%;
+        height: auto;
+       
+        /* flex-direction: column; */
+    }
+
+    .last{
+        width: 100%;
+        height: auto;
+        /* padding-right: 600px; */
+     
+    }
+    
+    .last ul li{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        /* flex-direction: column; */
+    }
+    .last ul{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        padding-left: 20px;
+        /* padding: 50px; */
+    }
+
+    .mobile{
+        width: 100%;
+        height: 150px;
+    }
+
+    .sarkar{
+        display: none;
+    }
+
+    .sarkar1{
+        width: 50%;
+        height: auto;
+    }
+    .sarkar2{
+        width: 50%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
 }
 
 
